@@ -1,0 +1,53 @@
+{
+  "name": "stylelint-config-camo",
+  "description": "stylelint shareable config by Camo.",
+  "license": "MIT",
+  "author": "Jason Nam <contact@jasonnam.com> (https://jasonnam.com)",
+  "homepage": "https://github.com/usecamo/stylelint-config-camo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usecamo/stylelint-config-camo"
+  },
+  "bugs": {
+    "url": "https://github.com/usecamo/stylelint-config-camo/issues"
+  },
+  "version": "0.1.0",
+  "main": "css/index.js",
+  "files": [
+    "scss/index.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "peerDependencies": {
+    "stylelint": "^9.10.1",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^2.0.0",
+    "stylelint-scss": "^3.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-camo": "^0.1.1",
+    "eslint-plugin-eslint-comments": "^3.1.1",
+    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-sort-requires": "^2.1.0",
+    "jest": "^24.1.0",
+    "stylelint": "^9.10.1",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^2.0.0",
+    "stylelint-scss": "^3.5.4"
+  },
+  "keywords": [
+    "camo",
+    "config",
+    "lint",
+    "stylelint",
+    "stylelint-config"
+  ],
+  "engines": {
+    "node": ">=6"
+  }
+}
