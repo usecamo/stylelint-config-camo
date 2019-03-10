@@ -1,6 +1,4 @@
-'use strict';
-
-const stylelint = require('stylelint');
+import stylelint from 'stylelint';
 
 test('all css rules are configured correctly', () => {
   const config = require('../css');
