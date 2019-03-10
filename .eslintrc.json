@@ -1,3 +1,6 @@
 {
-  "extends": "camo"
+  "extends": "camo",
+  "env": {
+    "node": true
+  }
 }
