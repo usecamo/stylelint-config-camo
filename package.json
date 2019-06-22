@@ -17,7 +17,6 @@
     "scss/index.js"
   ],
   "scripts": {
-    "lint": "eslint __tests__",
     "test": "jest",
     "test:watch": "jest --watch"
   },
@@ -30,12 +29,6 @@
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "babel-preset-usecamo": "^0.1.1",
-    "eslint": "^5.15.1",
-    "eslint-config-camo": "^0.2.2",
-    "eslint-plugin-eslint-comments": "^3.1.1",
-    "eslint-plugin-jest": "^22.3.0",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-sort-requires": "^2.1.0",
     "jest": "^24.3.1",
     "stylelint": "^9.10.1",
     "stylelint-config-standard": "^18.2.0",
